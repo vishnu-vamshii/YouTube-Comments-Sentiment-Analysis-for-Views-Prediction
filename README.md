@@ -31,8 +31,23 @@ These models are trained and tested on the dataset, with metrics such as R² sco
 ## Model Tuning and Stacking
 To improve model performance, hyperparameter tuning is done for both Random Forest and Gradient Boosting models. Stacking is also implemented to combine the strengths of multiple models for better results.
 
-## Conclusion
-The project demonstrates how sentiment analysis can be leveraged to predict video engagement metrics using machine learning. The final model stacking approach and hyperparameter optimization showcase how these techniques can enhance predictive accuracy.
+## Conclusion and Future Work
+Stacking, an advanced ensemble technique, excels in generalization as
+demonstrated by its robust performance on the testing set. By leveraging the
+complementary strengths of multiple base regression models, stacking aggregates
+their predictions to achieve superior accuracy compared to any single model. This
+not only mitigates the limitations of individual models but also optimizes
+predictive performance, making it highly suitable for applications prioritizing
+precision.
+In future, there are promising avenues for further improvement and exploration.
+One key focus could be on reducing the Mean Squared Error (MSE) by refining
+feature selection techniques or introducing novel features that capture additional
+relevant information. Furthermore, enhancing the interpretability of the stacked
+model would provide valuable insights into how different base models contribute
+to predictions, thereby fostering trust and facilitating informed decision-making in
+real-world scenarios. Overall, continuous refinement and innovation in stacking
+methodology hold significant potential to deliver more precise and actionable
+predictions in diverse applications.
 
 ## Usage
 To run this notebook, you will need the following libraries installed:
