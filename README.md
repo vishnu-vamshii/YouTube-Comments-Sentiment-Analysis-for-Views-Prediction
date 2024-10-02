@@ -1,7 +1,7 @@
 # YouTube Video Sentiment Analysis and Regression
 
 ## Overview
-This project involves sentiment analysis of YouTube video comments by extracting data from the most liked, disliked, and random videos. Using machine learning models such as Random Forest, Ridge, and Gradient Boosting, it aims to predict video performance metrics like likes and dislikes based on sentiment analysis scores. The project also includes hyperparameter tuning and model stacking for improved predictive accuracy.
+This project involves sentiment analysis of YouTube video comments by extracting data from the most liked, disliked, and random videos. Using machine learning models such as Random Forest, Ridge, and Gradient Boosting, it aims to predict video performance metrics and views based on sentiment analysis scores. The project also includes hyperparameter tuning and model stacking for improved predictive accuracy.
 
 ## Table of Contents
 - [Data Collection](#data-collection)
